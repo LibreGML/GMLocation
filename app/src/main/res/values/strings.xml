@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">GMLocation</string>
+    <string name="app_settings">参数设置</string>
+    <string name="app_history">我的足迹</string>
+    <string name="app_author">葛墨林</string>
+    <string name="app_email">tzgemolin@qq.com</string>
+    <string name="app_statement">仅供学习和测试，不能干坏事哦~</string>
+    <string name="app_service_tips">GML服务正在运行中</string>
+    <string name="app_error_gps">定位不可用呐，GPS 开了么</string>
+    <string name="app_error_network">怎么没网吖，检查一下网络连接叭</string>
+    <string name="app_error_permission">请授予我相关权限哦～</string>
+    <string name="app_error_input">理解不了输入内容，换种表达方式叭</string>
+    <string name="app_error_input_null">您什么都没有输入欸~</string>
+    <string name="app_error_search">查找失败，检查下网络和定位叭</string>
+    <string name="app_error_location">要先选择位置哦，宝~</string>
+    <string name="app_error_dev">无法跳转到开发者选项，开发者模式开了嘛</string>
+    <string name="app_error_param">非法参数</string>
+    <string name="app_error_longitude">经度超出限制了\n取值：-180.0 ~ 180.0</string>
+    <string name="app_error_latitude">纬度超出限制了\n取值：-90.0 ~ 90.0</string>
+    <string name="app_search_null">没搜到欸，重新搜搜看</string>
+    <string name="app_search_tips">想查什么尽管搜索吧</string>
+    <string name="app_location_ok">嗖！传送～</string>
+    <string name="app_location_copy">位置已复制到剪切板</string>
+    <string name="app_location_save">位置已保存</string>
+
+
+    <!-- 设置界面 -->
+    <string name="setting_group_move">移动</string>
+    <string name="setting_current_value">"当前值: "</string> <!-- 使用双引号以保留空格 -->
+    <string name="setting_joystick">摇杆类型</string>
+    <string name="setting_joystick_tips">重启摇杆后生效</string>
+    <string name="setting_walk">步行速度(米/秒)</string>
+    <string name="setting_walk_default">1.2</string>
+    <string name="setting_run">跑步速度(米/秒)</string>
+    <string name="setting_run_default">3.6</string>
+    <string name="setting_bike">驾驶速度(米/秒)</string>
+    <string name="setting_bike_default">10.0</string>
+    <string name="setting_altitude">海拔高度(米)</string>
+    <string name="setting_altitude_default">55.0</string>
+    <string name="setting_location">位置</string>
+    <string name="setting_random_offset">随机偏移</string>
+    <string name="setting_random_offset_summary">仅在使用历史位置时生效</string>
+    <string name="setting_random_offset_default">10.0</string>
+    <string name="setting_lat_max_offset">经度最大偏移距离(米)</string>
+    <string name="setting_lon_max_offset">纬度最大偏移距离(米)</string>
+    <string name="setting_group_log">记录</string>
+    <string name="setting_log_off">关闭日志</string>
+    <string name="setting_pos_history">历史记录有效期(天)</string>
+    <string name="setting_group_about">关于</string>
+    <string name="setting_version">版本号</string>
+    <string name="setting_author">贡献者</string>
+    <string name="setting_group_sys">系统</string>
+
+    <!-- 历史记录页面 -->
+    <string name="history_expiration">7</string>
+    <string name="history_location_default_name">地图位置</string>
+    <string name="history_idle">还没有您的足迹呢～</string>
+    <string name="history_delete_ok">删除成功！</string>
+    <string name="history_delete_error">删除记录失败</string>
+    <string name="history_error_location">定位失败了，手动选取定位叭</string>
+    <string name="history_error_search">没搜到呜呜～</string>
+
+    <!-- 通知栏 -->
+    <string name="note_show">显示摇杆</string>
+    <string name="note_hide">隐藏摇杆</string>
+    <!-- 摇杆 -->
+    <string name="joystick_map_tips">搜索或点击地图位置</string>
+    <string name="joystick_history_tips">搜索或点击历史位置</string>
+    <string name="joystick_history">历史记录</string>
+    <string name="joystick_map">地图</string>
+    <string name="joystick_move">移动</string>
+    <string name="joystick_walk">步行</string>
+    <string name="joystick_run">跑步</string>
+    <string name="joystick_bike">自行车</string>
+    <!-- 导航页 -->
+    <string name="nav_drawer_open">打开导航菜单</string>
+    <string name="nav_drawer_close">关闭导航菜单</string>
+    <string name="nav_menu_history">我的足迹</string>
+    <string name="nav_menu_settings">参数设置</string>
+    <string name="nav_menu_dev">开发者选项</string>
+    <string name="nav_menu_more">更多</string>
+    <string name="nav_menu_feedback">查看日志</string>
+    <string name="nav_menu_contact">联系贡献者</string>
+    <string name="nav_user_name">GMLocation</string>
+    <string name="nav_user_limit_info">仅供学习和测试哦～，不能干坏事哦~</string>
+
+    <!-- 主界面 -->
+    <string name="label_longitude">经度</string>
+    <string name="label_latitude">纬度</string>
+    <string name="input_position_ok">传送</string>
+    <string name="input_position_cancel">取消</string>
+    <string name="input_position_baidu">BD09 坐标系</string>
+    <string name="input_position_gps">GPS 坐标系</string>
+    <string name="input_button">输入位置</string>
+    <string name="cur_position">返回当前位置</string>
+    <string name="zoom_in">放大</string>
+    <string name="zoom_out">缩小</string>
+
+    <!-- 百度地图 -->
+    <string name="map_pic_sate">卫星图</string>
+    <string name="map_pic_normal">普通图</string>
+    <string name="safecode">31:4A:55:DE:60:A3:A0:FE:A7:E0:1C:6A:FC:D4:8E:F4:22:6D:FD:9C;tz.gml.gmlocation</string>
+    <string name="ak">zjQOgbWPIUL14jipOTtv9Z0YWSEIpI0d</string>
+
+
+</resources>
